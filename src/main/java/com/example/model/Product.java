@@ -89,6 +89,16 @@ public class Product {
 		return "Product [Product_id=" + Product_id + ", Product_name=" + Product_name + ", price=" + price
 				+ ", category=" + category + "]";
 	}
+
+	public Object getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setName(Object name) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
     

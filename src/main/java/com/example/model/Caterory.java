@@ -2,6 +2,7 @@ package com.example.model;
 
 
 import java.util.ArrayList;
+
 import java.util.List;
 
 import jakarta.persistence.CascadeType;
@@ -62,6 +63,16 @@ public class Caterory {
 	@Override
 	public String toString() {
 		return "Caterory [category_id=" + category_id + ", caterory_name=" + caterory_name + "]";
+	}
+	
+	public Object getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setName(Object name) {
+		// TODO Auto-generated method stub
+		
 	}
  
 }
